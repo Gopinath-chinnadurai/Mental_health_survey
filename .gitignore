@@ -1,21 +1,5 @@
-# Ignore Python virtual environment
 venv/
-.env/
-
-# Ignore model weights and artifacts
-*.pth
-*.pkl
-
-# Ignore system files and temp files
 __pycache__/
-*.py[cod]
-*.so
-.DS_Store
-
-# VSCode and Jupyter
-.vscode/
-.ipynb_checkpoints/
-
-# Ignore data cache (optional if needed)
-*.csv
+*.pyc
+*.pkl
 *.log
